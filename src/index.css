@@ -67,6 +67,8 @@ html {
   --textColor:var(--grey-900);
 }
 
+
+
 .dark-theme {
   --textColor:var(--dark-mode-text-color);
   --backgroundColor:var(--dark-mode-bg-color);
@@ -314,8 +316,10 @@ Toggle Container
   cursor: pointer;
 }
 .toggle-icon {
-  font-size: 1.5rem;
+  font-size: 3rem;
   color: var(--textColor);
+  border-radius: 50%;
+  padding: 5px;
 }
 /* 
 ========
@@ -366,7 +370,7 @@ Gallery
 }
 
 .image-container .img {
-  height: 10rem;
+  height: 20rem;
 }
 
 @media (min-width: 768px) {

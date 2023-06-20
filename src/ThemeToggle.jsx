@@ -10,9 +10,9 @@ export const ThemeToggle = () =>
             <button className="dark-toggle" onClick={toggleDarkTheme}>
                 {
                     isDarkTheme? (
-                        <BsFillMoonFill className="toggle-icon"/>
+                        <BsFillMoonFill className="toggle-icon" style={{border: "2px solid white"}}/>
                     ) : ( 
-                        <BsFillSunFill className="toggle-icon" />
+                        <BsFillSunFill className="toggle-icon" style={{border: "2px solid black"}}/>
                     )
                 }
             </button>
